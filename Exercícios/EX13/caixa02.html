@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title> 
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif; 
+            background-color: dimgray; 
+            margin: 0px;
+        } 
+        header{
+            
+            background-color: white; 
+            padding: 10px; 
+            margin: 10px;  
+            border-radius: 12px;
+
+        }  
+        nav{
+            background-color: teal; 
+            padding: 3px;   
+            text-align: center;    
+            margin-right: 30px; 
+            box-shadow: 1px 2.5px 2.2px rgba(0, 0, 0, 0.699);
+        } 
+        nav > a{
+            text-decoration: none; 
+            color: silver;  
+            font-weight: bold; 
+            margin-right: 45px;
+
+        } 
+        nav >a:hover{  
+            text-decoration: underline; 
+            color: lightseagreen ; 
+            
+            
+            
+
+        } 
+         
+        nav > a:active{
+            font-weight: bold; 
+            color: mediumspringgreen;
+        }
+        main{ 
+            background-color: white; 
+            padding: 10px; 
+            margin: 10px; 
+            border-radius: 12px; 
+
+        }  
+        
+        main > section > article#teste{ 
+            border: 1.5px solid black ; 
+            padding: 10px; 
+            text-align: justify;
+
+        }
+            background-color: darkgrey; 
+            padding: 5px;
+        } 
+        article > aside{
+            background-color: slategrey;
+        } 
+        footer{
+            background-color: black; 
+            color: burlywood; 
+            text-align: center; 
+            padding-left: 5px;  
+            border-radius: 12px;
+
+        }
+    </style>
+</head>
+<body> 
+    <header> 
+        <h1>Meu Site</h1> 
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main> 
+        <section id="assuntos"> 
+            <p>Esportes Politica Tecnologia</p>
+
+        </section> 
+        <section id="noticias">
+            <article id="teste">  
+                <h2>Notícia sobre o Brasil.</h2> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At delectus molestiae nisi iste itaque blanditiis incidunt sed quisquam neque rem eveniet quibusdam fugiat harum cumque voluptatibus dicta, dolorum numquam reiciendis.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+
+            </article> 
+            <article>
+
+            </article>
+        </section>
+
+    </main> 
+    <footer> 
+        <P>Desenvolvido por Gabriel Pires Guiomar.</P> 
+        <nav>
+            <a href="#">Facebook!</a>
+        </nav> 
+        <nav>
+            <a href="#">Instagram!</a>
+        </nav> 
+        <nav>
+            <a href="#">Email!</a>
+        </nav>
+
+    </footer>
+</body>
+</html>
